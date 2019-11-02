@@ -57,7 +57,7 @@
             setTimeout(() => {
                 this.scrollToBottom()
             }, 500)
-            
+
         },
         methods: {
             loadMessage() {
@@ -96,7 +96,7 @@
                 })
             }
         }
-    } 
+    }
 </script>
 
 <style lang="scss" scoped>
@@ -126,7 +126,7 @@ Chat
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
     width: 500px;
     height: 80vh;
     max-height: 700px;
@@ -153,7 +153,7 @@ Chat Title
     text-transform: uppercase;
     text-align: left;
     padding: 10px 10px 10px 50px;
-  
+
     h1, h2 {
         font-weight: normal;
         font-size: 16px;
@@ -166,7 +166,7 @@ Chat Title
         font-size: 8px;
         letter-spacing: 1px;
     }
-  
+
     .avatar {
         position: absolute;
         z-index: 1;
@@ -196,7 +196,7 @@ Message Box
     background: rgba(0, 0, 0, 0.3);
     padding: 10px;
     position: relative;
-  
+
     & .message-input {
         background: none;
         border: none;
@@ -213,7 +213,7 @@ Message Box
     textarea:focus:-webkit-placeholder{
         color: transparent;
     }
-  
+
     & .message-submit {
         position: absolute;
         z-index: 1;
@@ -225,7 +225,7 @@ Message Box
         font-size: 10px;
         text-transform: uppercase;
         line-height: 1;
-        padding: 6px 10px; 
+        padding: 6px 10px;
         border-radius: 10px;
         outline: none!important;
         transition: background .2s ease;

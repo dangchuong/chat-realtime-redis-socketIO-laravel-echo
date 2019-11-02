@@ -1,9 +1,5 @@
 # Realtime chat app using Laravel, VueJS, Redis, Laravel Echo Server
 
-# Install Instruction
-
-
-
 ## Installation:
 - Clone this project
 
@@ -31,7 +27,7 @@ Run following command:
 	- php artisan serve
 	- npm run watch (open in another terminal tab)
 	- laravel-echo-server start
+    - php artisan queue:work
 
 Open browser in Chrome and another tab using incognito or other browser type (Safari, Firefox). Create an account and test your app
 
-Look at the demo: [Demo](https://public-chat.jamesisme.com/)
